@@ -1,0 +1,25 @@
+git init		//install git in Project
+git status		//view status file in project
+
+//-------staged--------//
+git add <filename>	//insert file in status staged
+git add .		//insert all file for project in status staged
+
+//-------Local Respository--------//
+git commit -m "message"	//put file form staged to local respository
+
+
+//------Log for Respository----//
+git log
+git log --oneline
+git log --oneline --decorete
+git log --oneline --decorete --graph
+git log --stat				//Diff from log
+git log --grep="message"		//log by message
+git log --after="2018-01-23"		//log in date
+git log --before="2018-01-23"		
+git log --author=olan			//log by user
+
+//------Clean Untracked-------//
+git clean -n	//show file in Untracked
+git clran -df	//Delete file in Untracked
