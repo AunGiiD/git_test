@@ -23,3 +23,6 @@ git log --author=olan			//log by user
 //------Clean Untracked-------//
 git clean -n	//show file in Untracked
 git clran -df	//Delete file in Untracked
+
+//-----Reser work----//
+git reset --hard <commit ID6key>
