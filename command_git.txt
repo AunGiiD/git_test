@@ -26,3 +26,8 @@ git clran -df	//Delete file in Untracked
 
 //-----Reser work----//
 git reset --hard <commit ID6key>
+
+//-----Branch git----//
+git branch			//check branch
+git branch <name branch>	//insert branch
+git checkout <name branch> 	//inside branch
