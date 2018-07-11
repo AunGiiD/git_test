@@ -32,3 +32,10 @@ git branch			//check branch
 git branch <name branch>	//insert branch
 git checkout <name branch> 	//inside branch
 git branch --delete <name branch>	//delete branch
+
+//---merge---//
+git merge --no--ff <name branch other>	 	//sum branch master+branch.. Ẻ no fast forward
+git merge <name branch other>			//sum branch master+branch.. Ẻ fast forward
+
+//---Diff--//
+git diff
