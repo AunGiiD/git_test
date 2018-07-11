@@ -31,3 +31,4 @@ git reset --hard <commit ID6key>
 git branch			//check branch
 git branch <name branch>	//insert branch
 git checkout <name branch> 	//inside branch
+git branch --delete <name branch>	//delete branch
