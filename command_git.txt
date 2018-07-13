@@ -54,3 +54,5 @@ git fecth origin master	//รับการเปลี่ยนแปลงBra
 //---รวมการเปลี่ยนแปลงบน Remote Repository มายัง Local Repository
 git merge	
 git merge origin/master
+
+git pull origin master
