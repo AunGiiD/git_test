@@ -45,3 +45,12 @@ git diff
 git remote add origin <URL>	//Add Remote repository
 git remote -v			//Show Remote repository
 
+git push origin <name branch>		//เปลี่ยนแปลง ส่งขึ้นgit hub
+git push --delete origin <name branch>	//ลบbranch ใน git hub
+
+git fecth --all		//รับการเปลี่ยนแปลงทุกbranch ขึ้นRemote Repository
+git fecth origin master	//รับการเปลี่ยนแปลงBranch master จาก Remote Repository ที่ชื่อ origin
+
+//---รวมการเปลี่ยนแปลงบน Remote Repository มายัง Local Repository
+git merge	
+git merge origin/master
