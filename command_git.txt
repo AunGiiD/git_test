@@ -1,4 +1,4 @@
-git init		//install git in Project
+﻿git init		//install git in Project
 git status		//view status file in project
 
 //-------staged--------//
@@ -39,3 +39,9 @@ git merge <name branch other>			//sum branch master+branch.. Ẻ fast forward
 
 //---Diff--//
 git diff
+
+
+//--Remote Repository to Github --//
+git remote add origin <URL>	//Add Remote repository
+git remote -v			//Show Remote repository
+
